@@ -1,1 +1,15 @@
 /* Start coding here */
+.background1 {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(50deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 40vw;
+  height: 30vh;
+  background-color: hsla(0, 50%, 100%, 0.5);
+}
