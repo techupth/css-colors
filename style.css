@@ -1,1 +1,24 @@
-/* Start coding here */
+body {
+  background-image: linear-gradient(
+    to top right,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-contianer {
+  display: block;
+  background-color: hsla(0, 50%, 100%, 0.5);
+  height: 300px;
+  width: 500px;
+  gap: 20px;
+}
+h1,
+p {
+  text-align: center;
+  padding: 10px;
+}
