@@ -1,1 +1,36 @@
-/* Start coding here */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(50deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%)) ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content-box {
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px; 
+    text-align: center;
+    background-color: hsla(0, 50%, 100%, 0.5);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
