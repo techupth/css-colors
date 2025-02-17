@@ -1,1 +1,29 @@
-/* Start coding here */
+body {
+    background: linear-gradient(to top right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .content-box {
+    background-color: hsla(0, 50%, 100%, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .content-box h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .content-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
