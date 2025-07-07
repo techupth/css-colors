@@ -1,1 +1,31 @@
 /* Start coding here */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  font-family: serif;
+}
+
+.card {
+  background: hsla(0, 50%, 100%, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 2rem 2.5rem;
+  max-width: 500px;
+  text-align: center;
+}
+
+.card h1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+}
