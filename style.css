@@ -1,1 +1,45 @@
-/* Start coding here */
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* HSL gradient background */
+  background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.welcome-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-box {
+  background: hsla(0, 50%, 100%, 0.5);
+  border-radius: 8px;
+  padding: 28px 40px 22px 40px;
+  max-width: 400px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  text-align: center;
+}
+
+.welcome-box h2 {
+  margin: 0 0 12px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+.welcome-box p {
+  font-size: 0.92em;
+  margin: 0;
+  line-height: 1.2;
+  text-align: justify;
+  text-align: center;
+}
+
+  
