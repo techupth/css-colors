@@ -1,1 +1,36 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    
+    background: linear-gradient(to right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+}
+
+.card {
+    background-color: hsla(0, 50%, 100%, 0.5);
+    padding: 30px 40px;
+    border-radius: 6px;
+    max-width: 650px;
+    text-align: center;
+    margin: 20px;
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000;
+}
