@@ -1,1 +1,48 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1a1a1a;
+}
+
+main {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+article {
+  background-color: hsla(0, 50%, 100%, 0.5);
+  max-width: 520px;
+  padding: 28px 36px;
+  border-radius: 8px;
+  border: 1px solid hsla(0, 0%, 100%, 0.7);
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
